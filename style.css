@@ -1,0 +1,38 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(180deg, #99998d, #e6e6cf 80%);
+}
+.titulo{
+    font-size: 24px;
+    color: #75756A;
+    margin: auto 5px 0 0;
+}
+.calc, .input{
+    display: block;
+    margin: 5px 0;
+}
+.input{
+    margin-left: 10px;
+    border-radius: 2px;
+    border: #363630 1.5px  solid;
+    background: #fafaf2;
+    box-shadow: #919188 1.2px 1.2px 1px;
+}
+.box-calc{
+    margin: 17% auto;
+    background: #f5f5dc;
+    border: #363630 2px  solid;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.644) 3px 3px;
+    transform: scale(1.1);
+}
+.box-calc:hover{
+    box-shadow: #747467 3px 3px 2px;
+    border: #7c7c6f 2px  solid;
+}
+.tdResult{
+    font-size: 15px;
+    color: #44443d;
+}
